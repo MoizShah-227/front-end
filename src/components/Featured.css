@@ -1,0 +1,102 @@
+.featured{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.featured .container .contain-featured hr,h1{
+    display: flex;
+    justify-content: center;
+}
+.featured .container .contain-featured .line{
+    position: relative;
+    top: 12px;
+    width: 80px;
+    border: 2px solid var(--dark-beige);
+}
+.featured .container .contain-featured h1{
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 500;
+}
+.featured .container .contain-featured .contain-card .row a{
+    text-decoration: none;
+    color: var(--light-grey);
+    transition: 0.4s;
+}
+.featured .container .contain-featured .contain-card{
+    margin-top: 70px;
+}
+.featured .container .contain-featured .contain-card .card{
+    border: 1px solid var(--dark);
+    background-color: var(--light-dark);
+    width: 350px;
+    height: 441px;
+    transition:0.5s;
+    margin: 0;
+}
+.container .contain-featured .contain-card .card .card-content{
+    padding: 30px 0;
+    text-align: center;
+ }
+ .container .contain-featured .contain-card .card .card-content h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 12px;
+ }
+
+ .container .contain-featured .contain-card .card .card-content h6{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--dark-beige);
+    margin-top: 12px;
+ }
+ .container .contain-featured .contain-card .card .card-content 
+ .add-cart-btn{
+    padding: 14px;
+    border: none;
+    border-radius: 0;    
+    background-color: var(--light-btn);
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.container .contain-featured .contain-card .card .sale-tag{
+    position: relative;
+    top: 43px;
+    right: 17px;
+    background-color: black;
+    width: 80px;
+    height:46px;
+    transform: rotate(-90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--dark-beige);
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* hover */
+.container .contain-featured .contain-card .card .card-content 
+ .add-cart-btn:hover{
+    background-color: var(--dark);
+    color: var(--light-grey);
+}
+ 
+.featured .container .contain-featured .contain-card .card:hover{
+    background-color: #5d5d5d5d;
+    height: 460px;
+}
+

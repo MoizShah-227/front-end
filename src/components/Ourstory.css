@@ -1,0 +1,64 @@
+.ourstory{
+    position: relative;
+    top: 100px;
+}
+.ourstory .container .row .left-side .bg-container{
+    width: 450px;
+    height: 450px;
+    background: var(--beige);
+    position: relative;
+    left: 20px;
+}
+.ourstory .container .row .left-side .bg-container img{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+
+.ourstory .container .row .right-side{
+    /* border: 1px solid red; */
+    position: relative;
+    top: 40px;
+    left: 90px;
+}
+.ourstory .container .row .right-side hr{
+    width: 90px;
+    margin: 10px 0;
+    border: 1px solid var(--dark-beige);
+}
+.ourstory .container .row .right-side h5{
+    font-size: 25px;
+    font-weight: 300;
+}
+.ourstory .container .row .right-side h2{
+    font-size: 34px;
+    font-weight: 400;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.ourstory .container .row .right-side p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--grey);
+    width: 340px;
+    padding-bottom: 30px;
+}
+.ourstory .container .row .right-side button{
+    padding: 14px 20px 14px 20px;
+    border-radius: 0;
+    border: none;
+    color: var(--light-grey);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--light-dark);
+    transition: 0.4s;
+}
+
+
+
+.ourstory .container .row .right-side button:hover{
+    color: var(--dark);
+    background-color: var(--grey);
+}

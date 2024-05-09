@@ -1,0 +1,102 @@
+.home{
+    position: relative;
+    top: -100px;
+    z-index: 0;
+}
+.home .row .right-side{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 170px;
+    left: 22px;
+ }
+
+.home .container .contain-home .row .right-side .tag-lines .side-social ul{
+    position: relative;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.home .container .contain-home .row .right-side .tag-lines .side-social ul li{
+    list-style: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    transition: 0.5s;
+
+}
+.home .container .contain-home .row .right-side .tag-lines .side-social ul li a{
+    color: var(--grey);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.home .container .contain-home .row .right-side .tag-lines h1{
+    font-size: 60px;
+    font-weight: 800;   
+
+}
+.home .container .contain-home .row .right-side .tag-lines p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 300;   
+    width: 500px;
+    color: var(--grey);
+}
+.home .container .contain-home .row .right-side .tag-lines h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--dark-beige);
+}
+.home .container .contain-home .row .right-side .tag-lines button{
+    margin-top: 12px;
+    padding: 14px;
+    color: var(--dark);
+    background-color: var(--grey);
+    font-size: 15px;
+    font-weight: 500;
+    font-style: bold;
+    border-radius: 0;
+    transition: 0.2s;
+}
+.home .container .contain-home .row .right-side .tag-lines .add-btn{
+    padding: 18px;
+    color: var(--light-grey);
+    background-color: var(--light-dark);
+    transition: 0.2s;
+}
+
+/* HOVER IS HERE */
+.home .container .contain-home .row .right-side .tag-lines .side-social ul li:hover{
+    color: var(--dark-beige);
+    transform: translateY(-2px);
+}
+.home .container .contain-home .row .right-side .tag-lines .side-social ul li a:hover{
+    color: var(--dark-beige);
+}
+
+.home .container .contain-home .row .right-side .tag-lines .add-btn:hover{
+    background-color: #bababa;
+    color: var(--dark);
+}
+.home .container .contain-home .row .right-side .tag-lines button:hover{
+    background-color: var(--dark);
+    color: var(--light-grey);
+}
+
+/* MEDIA QUERYS */
+@media (max-width: 991px) {
+    .home .container .contain-home .row .left-side {
+        display: none;
+    }
+    .home .container .contain-home .row .right-side .tag-lines p{
+        width: 400px;       
+    }
+}
+@media (max-width: 768px) {
+    .home .container .contain-home .row .right-side .tag-lines h1{
+        font-size: 40px;
+        font-weight: 800;       
+    }
+}

@@ -1,0 +1,118 @@
+.navbar{
+  position: relative;
+  z-index: 2;
+}
+.navbar .container .contain-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .container .contain-nav .leftside{
+    display: flex;
+}
+.navbar .container .contain-nav .leftside img{
+    width: 120px;
+}
+.navbar .container .contain-nav .leftside ul{
+    display: flex;
+    margin: 12px;
+    
+}
+.navbar .container .contain-nav .leftside ul li{
+    list-style: none;
+    margin: 12px;
+    transition: 0.3s;    
+}
+.navbar .container .contain-nav .leftside ul li a{
+   text-decoration: none;
+   font-size: 18px;
+   padding: 12px;
+   color: var(--light-grey);
+
+}
+
+.navbar .container .contain-nav .rightside ul{
+    display: flex;
+    margin: 12px;
+    
+}
+.navbar .container .contain-nav .rightside ul{
+    display: flex;
+    margin: 12px;
+  align-items: center;
+  }
+.navbar .container .contain-nav .rightside ul li{
+    list-style: none;
+    margin: 2px;
+    font-size: 18px;
+}
+.navbar .container .contain-nav .rightside ul li button i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    /* color: var(--dark); */
+}
+
+
+.navbar .container .contain-nav .rightside ul li button{
+    background-color: transparent;
+    border: none;
+    color: var(--light-grey);
+}
+
+.navbar .container .contain-nav .leftside ul li:hover{
+    color: var(--dark-beige);   
+    transform: translateY(-2px);
+}
+.navbar .container .contain-nav .leftside ul li a:hover{
+    color: var(--dark-beige);   
+}
+
+ .navbar .container .contain-nav .rightside ul li button i:hover{
+    color: var(--dark-beige);   
+    transform: translateY(-2px);
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar .container .contain-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    .navbar .container .contain-nav .leftside {
+      margin-bottom: 20px;
+    }
+    .navbar .container .contain-nav .leftside img {
+      width: 80px;
+    }
+    .navbar .container .contain-nav .leftside ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .navbar .container .contain-nav .leftside ul li {
+      margin: 8px;
+    }
+    .navbar .container .contain-nav .leftside ul li a {
+      font-size: 16px;
+    }
+    .navbar .container .contain-nav .rightside ul li {
+      margin: 8px;
+      font-size: 16px;
+    }
+  }
+  .menu-toggle{
+    display: none;
+  }
+
+  @media screen and (max-width: 769px){
+    .menu-toggle{
+        display: inline;
+      }
+    
+  }
+
